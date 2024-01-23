@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    
+}
+
+
+.searchSection {
+    width: 50%;
+    border: 5px ridge #555555;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    text-align: center;
+    background-color: #555555;
+    display: inline; 
+  }
+
+.searchBar{
+    margin: auto;
+    width: 80%;  
+   
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+.searchBtn{
+    cursor: pointer;
+    font-size: 14px;
+    background-color: white;
+    border: 2px solid #555555;
+    color: black;
+    transition-duration: 0.4s;
+}
+.searchBtn:hover {
+    background-color: #555555;
+    color: white;
+  }
+
+.weatherCard {
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    border: 5px ridge #555555;
+    position: absolute;
+    padding: 20px;
+    background-color: #555555;
+    color: white;
+    display: none;
+    left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+  }
+.weathericon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
